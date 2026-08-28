@@ -1,0 +1,87 @@
+Status,Assignment,Assignment Reason,Date Assigned,Application,POC,IT Manager,Shared Server,Priority,PCI,Score Range,MAX Sev,Asset Risk,Due Date,QID,Remediation Notes,GRC,GRC Expiration,Server Name,IP,Port,Title,Exploit Sources,OS,Asset Family,Asset Tags,Data Source,Instance,First Detected,Last Detected,Last Assignment Update,Reopened,Sev Low,Sev Medium,Sev High,Sev Critical,"SLAMonth
+Low","SLAMonth
+Medium","SLAMonth
+High",SLAMonth Critical,"Met SLA
+Low","Met SLA
+Medium","Met SLA
+High","Met SLA
+Critical",Vuln ID,TotalCVEs,Results,Application SVP,Overdue Total CVEs
+Due in 30 Days,HCB_Aff_bSwift,"101_DNS_LastResort_2026-03-09
+Unknown",2026-03-09 00:00:00,PDCHS Aetna Affilate,"Gorokhovsky, Kirill",,,,,Medium Risk (40-59),45,EDR,2026-06-07 00:00:00,38173,,,,stressapih2.bswift.biz,63.110.246.15,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,Qualys_CSAM,CLD,2026-03-08 00:00:00,2026-05-25 00:00:00,2026-03-09 00:00:00,,0,1,0,0,,2026-06-01 00:00:00,,,0,1,0,0,298210963_38173_443,1,"Certificate #0 CN=stressapih2.int.pdchs.net,O=CVS_Pharmacy_Inc,L=Woonsocket,ST=Rhode_Island,C=US ISSUER:_CN=DigiCert_Global_G2_TLS_RSA_SHA256_2020_CA1,O=DigiCert_Inc,C=US certificate has expired",,0
+Due in 30 Days,HCB_Aff_bSwift,"101_DNS_LastResort_2026-03-09
+Unknown",2026-03-09 00:00:00,PDCHS Aetna Affilate,"Gorokhovsky, Kirill",,,,,Medium Risk (40-59),45,EDR,2026-06-07 00:00:00,38167,,,,stressapih2.bswift.biz,63.110.246.15,443,SSL Certificate - Expired,,,OTHER,,Qualys_CSAM,CLD,2026-03-08 00:00:00,2026-05-25 00:00:00,2026-03-09 00:00:00,,0,1,0,0,,2026-06-01 00:00:00,,,0,1,0,0,298210963_38167_443,1,"Certificate #0 CN=stressapih2.int.pdchs.net,O=CVS_Pharmacy_Inc,L=Woonsocket,ST=Rhode_Island,C=US  is not valid after Apr  3 23:59:59 2025 GMT.",,0
+Due in 30 Days,HCB_Aff_bSwift,"101_DNS_LastResort_2026-03-09
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-06
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-05
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-04
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-03
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-02
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-01
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-28
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-27
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-26
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-25
+8_Application_Rule:20301_2026-02-24",2026-03-09 00:00:00,,"Gorokhovsky, Kirill",,,,,Medium Risk (40-59),51,EDR,2026-06-07 00:00:00,38173,,,,devapih2.bswift.biz,10.42.88.28,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,Qualys_CSAM,CLD,2026-02-23 00:00:00,2026-05-25 00:00:00,2026-03-09 00:00:00,,0,1,0,0,,2026-06-01 00:00:00,,,0,1,0,0,293992412_38173_443,1,"Certificate #0 CN=devapih2.int.pdchs.net,O=CVS_Pharmacy_Inc,L=Woonsocket,ST=Rhode_Island,C=US ISSUER:_CN=DigiCert_Global_G2_TLS_RSA_SHA256_2020_CA1,O=DigiCert_Inc,C=US certificate has expired",,0
+Due in 30 Days,HCB_Aff_bSwift,"101_DNS_LastResort_2026-03-09
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-06
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-05
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-04
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-03
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-02
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-01
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-28
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-27
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-26
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-25
+10_LogicMatch_Rule:4673350_2026-02-24",2026-03-09 00:00:00,,"Gorokhovsky, Kirill",,,,,Medium Risk (40-59),51,EDR,2026-06-07 00:00:00,38167,,,,devapih2.bswift.biz,10.42.88.28,443,SSL Certificate - Expired,,,OTHER,,Qualys_CSAM,CLD,2026-02-23 00:00:00,2026-05-25 00:00:00,2026-03-09 00:00:00,,0,1,0,0,,2026-06-01 00:00:00,,,0,1,0,0,293992412_38167_443,1,"Certificate #0 CN=devapih2.int.pdchs.net,O=CVS_Pharmacy_Inc,L=Woonsocket,ST=Rhode_Island,C=US  is not valid after Mar 21 23:59:59 2025 GMT.",,0
+Due in 30 Days,HCB_Aff_bSwift,"101_DNS_LastResort_2026-03-09
+10_LogicMatch_Rule:4673350_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-06
+10_LogicMatch_Rule:4673350_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-05
+10_LogicMatch_Rule:4673350_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-04
+10_LogicMatch_Rule:4673350_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-03
+10_LogicMatch_Rule:4673350_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-02
+10_LogicMatch_Rule:4673350_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-01
+10_LogicMatch_Rule:4673350_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-02-28
+10_LogicMatch_Rule:4673350_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-02-27
+10_LogicMatch_Rule:4673350_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-02-26
+10_LogicMatch_Rule:4673350_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-02-25
+10_LogicMatch_Rule:4673350_2026-02-24",2026-03-09 00:00:00,Unknown_CSAM,"Gorokhovsky, Kirill",,,,,Medium Risk (40-59),51,EDR,2026-06-07 00:00:00,38167,,,,apih2.bswift.biz,10.42.88.32,443,SSL Certificate - Expired,,,OTHER,,Qualys_CSAM,CLD,2026-02-23 00:00:00,2026-05-25 00:00:00,2026-03-09 00:00:00,,0,1,0,0,,2026-06-01 00:00:00,,,0,1,0,0,293987194_38167_443,1,"Certificate #0 CN=apih.bswift.biz,O=Aetna_Inc.,L=Hartford,ST=Connecticut,C=US  is not valid after May 30 12:00:00 2019 GMT.
+Certificate #1 CN=Aetna_Inc._Secure_CA2,O=Aetna_Inc,C=US  is not valid after Dec  9 12:00:00 2024 GMT.",,0
+Due in 30 Days,HCB_Aff_bSwift,"101_DNS_LastResort_2026-03-09
+8_Application_Rule:20301_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-06
+8_Application_Rule:20301_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-05
+8_Application_Rule:20301_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-04
+8_Application_Rule:20301_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-03
+8_Application_Rule:20301_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-02
+8_Application_Rule:20301_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-03-01
+8_Application_Rule:20301_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-02-28
+8_Application_Rule:20301_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-02-27
+8_Application_Rule:20301_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-02-26
+8_Application_Rule:20301_AppToTower_Unknown_CSAM_NoAppToTower_Unknown_CSAM_2026-02-25
+8_Application_Rule:20301_2026-02-24",2026-03-09 00:00:00,Unknown_CSAM,"Gorokhovsky, Kirill",,,,,Medium Risk (40-59),51,EDR,2026-06-07 00:00:00,38173,,,,apih2.bswift.biz,10.42.88.32,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,Qualys_CSAM,CLD,2026-02-23 00:00:00,2026-05-25 00:00:00,2026-03-09 00:00:00,,0,1,0,0,,2026-06-01 00:00:00,,,0,1,0,0,293987194_38173_443,1,"Certificate #0 CN=apih.bswift.biz,O=Aetna_Inc.,L=Hartford,ST=Connecticut,C=US ISSUER:_CN=Aetna_Inc._Secure_CA2,O=Aetna_Inc,C=US certificate has expired",,0
+Due in 30 Days,HCB_Aff_bSwift,"101_DNS_LastResort_2026-03-09
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-06
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-05
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-04
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-03
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-02
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-01
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-28
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-27
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-26
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-25
+8_Application_Rule:20301_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-24
+8_Application_Rule:20301_2026-02-23",2026-03-09 00:00:00,PDCHS Aetna Affilate,"Gorokhovsky, Kirill",,,,,Medium Risk (40-59),51,EDR,2026-06-07 00:00:00,38173,,,,qaapih2.int.pdchs.net.pdchs.net,10.42.88.29,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,Qualys_CSAM,CLD,2026-02-22 00:00:00,2026-05-25 00:00:00,2026-03-09 00:00:00,,0,1,0,0,,2026-06-01 00:00:00,,,0,1,0,0,294002923_38173_443,1,"Certificate #0 CN=qaapih2.int.pdchs.net,O=CVS_Pharmacy_Inc,L=Woonsocket,ST=Rhode_Island,C=US ISSUER:_CN=DigiCert_Global_G2_TLS_RSA_SHA256_2020_CA1,O=DigiCert_Inc,C=US certificate has expired",,0
+Due in 30 Days,HCB_Aff_bSwift,"101_DNS_LastResort_2026-03-09
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-06
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-05
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-04
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-03
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-02
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-03-01
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-28
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-27
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-26
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-25
+10_LogicMatch_Rule:4673350_AppToTower_PDCHS Aetna Affilate_NoAppToTower_PDCHS Aetna Affilate_2026-02-24
+10_LogicMatch_Rule:4673350_2026-02-23",2026-03-09 00:00:00,PDCHS Aetna Affilate,"Gorokhovsky, Kirill",,,,,Medium Risk (40-59),51,EDR,2026-06-07 00:00:00,38167,,,,qaapih2.int.pdchs.net.pdchs.net,10.42.88.29,443,SSL Certificate - Expired,,,OTHER,,Qualys_CSAM,CLD,2026-02-22 00:00:00,2026-05-25 00:00:00,2026-03-09 00:00:00,,0,1,0,0,,2026-06-01 00:00:00,,,0,1,0,0,294002923_38167_443,1,"Certificate #0 CN=qaapih2.int.pdchs.net,O=CVS_Pharmacy_Inc,L=Woonsocket,ST=Rhode_Island,C=US  is not valid after Apr  4 23:59:59 2025 GMT.",,0

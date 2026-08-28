@@ -1,0 +1,76 @@
+Status,Assignment,Assignment Reason,Date Assigned,Application,POC,IT Manager,Shared Server,Priority,PCI,Score Range,MAX Sev,Asset Risk,Due Date,QID,Remediation Notes,GRC,GRC Expiration,Server Name,IP,Port,Title,Exploit Sources,OS,Asset Family,Asset Tags,Data Source,Instance,First Detected,Last Detected,Last Assignment Update,Reopened,Sev Low,Sev Medium,Sev High,Sev Critical,"SLAMonth
+Low","SLAMonth
+Medium","SLAMonth
+High",SLAMonth Critical,"Met SLA
+Low","Met SLA
+Medium","Met SLA
+High","Met SLA
+Critical",Vuln ID,TotalCVEs,Results,Application SVP,Overdue Total CVEs
+Overdue (60+ Days),Enterprise Analytics-Platform Support,"FROM PCW Tech & Digital - Omni Rx Preorder and Adherence TO Enterprise Analytics-Platform Support VIA Transfer ID: 13427 2025-11-04 FROM TSS_LINUX TO PCW Tech & Digital - Omni Rx Preorder and Adherence VIA Transfer ID: 13280 2025-10-20 REVERT TRANSFER: EDML-Enterprise Analytics Platform Support TO TSS_LINUX VIA Transfer ID: 13138 2025-10-07 FROM TSS_LINUX TO EDML-Enterprise Analytics Platform Support VIA Transfer ID: 13138 2025-10-06 4_Title Search:%Red Hat% ApplicationMatch:_Rule:1076021_2024-11-06
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-05
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-04
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-04
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-04
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-04
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-04
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-03
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-02
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-01
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-01
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-01
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-01
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-01
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-31
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-31
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-31
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-31
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-31
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-30
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-29
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-28
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-27
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-26
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-25
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-24
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-23
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-22
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-21
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-20
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-19
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-18
+TSS_Linux",2025-11-04 00:00:00,RPHAI Engine-ERE-RxConnect-POS staging service,Karen Masse,,,,,High Risk (60-79),63,,2024-12-06 00:00:00,239973,11/3 KK Transfer Ticket #13427 Successfully Submitted for transfer to Enterprise Analytics-Platform Support - 11/3 KP Sent email notifying correct owner Deepak Chandwani of transfer to their assignment Enterprise Analytics-Platform Support. - EOL OS transferred back to Application Team #13138 (CVS\C866269),,,ews-ere-app-sit1.azure.cvshealthcloud.com,10.223.144.31,,Red Hat Update for log4j (RHSA-2021:5206),vulncheck-threat-actors,RHEL 7.9,Linux,"Cloud Agent,AZURE_CVS_ORG,AT:Azure_eastus2-region,AZURE_RUNNING_SERVERS,AG:Azure_eastus2,OS.LinuxServer,tagset_2982450,VAE_All_Assets,GT_AZURE_HCB_USE2,Linux,Internal IP Range,PBM_Assets,VAE_MSB_AutoTag_AGENT_RHEL6-7,PCW","CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",CLD,2023-12-07 00:00:00,2026-08-28 00:00:00,2025-11-04 00:00:00,,0,0,1,0,,,2024-12-01 00:00:00,,0,0,0,0,19557076_239973,1,"Package Installed Version Required Version
+log4j 1.2.17-16.el7_4.noarch 1.2.17-17.el7_4","Keshavarz, Ali",1
+Overdue (60+ Days),Enterprise Analytics-Platform Support,"FROM PCW Tech & Digital - Omni Rx Preorder and Adherence TO Enterprise Analytics-Platform Support VIA Transfer ID: 13427 2025-11-04 FROM TSS_LINUX TO PCW Tech & Digital - Omni Rx Preorder and Adherence VIA Transfer ID: 13280 2025-10-20 REVERT TRANSFER: EDML-Enterprise Analytics Platform Support TO TSS_LINUX VIA Transfer ID: 13138 2025-10-07 FROM TSS_LINUX TO EDML-Enterprise Analytics Platform Support VIA Transfer ID: 13138 2025-10-06 4_Title Search:%Red Hat% ApplicationMatch:_Rule:1076021_2024-11-06
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-05
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-04
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-04
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-04
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-04
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-04
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-03
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-02
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-01
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-01
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-01
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-01
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-11-01
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-31
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-31
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-31
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-31
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-31
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-30
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-29
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-28
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-27
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-26
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-25
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-24
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-23
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-22
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-21
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-20
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-19
+TSS_Linux vuln detected on non-TSS asset assigning to application_AppToTower_RPHAI data analytics engineer_NoAppToTower_RPHAI data analytics engineer_2024-10-18
+TSS_Linux",2025-11-04 00:00:00,RPHAI Engine-ERE-RxConnect-POS staging service,Karen Masse,,,,,High Risk (60-79),63,,2024-12-06 00:00:00,239973,11/3 KK Transfer Ticket #13427 Successfully Submitted for transfer to Enterprise Analytics-Platform Support - 11/3 KP Sent email notifying correct owner Deepak Chandwani of transfer to their assignment Enterprise Analytics-Platform Support. - EOL OS transferred back to Application Team #13138 (CVS\C866269),,,ews-ere-app-dev1.azure.cvshealthcloud.com,10.223.144.37,,Red Hat Update for log4j (RHSA-2021:5206),vulncheck-threat-actors,RHEL 7.9,Linux,"Cloud Agent,AZURE_CVS_ORG,AT:Azure_eastus2-region,AZURE_RUNNING_SERVERS,AG:Azure_eastus2,OS.LinuxServer,Internal IP Range,GT_AZURE_HCB_USE2,Linux,tagset_2982450,VAE_MSB_AutoTag_AGENT_RHEL6-7,PBM_Assets,VAE_All_Assets","CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",CLD,2024-05-22 00:00:00,2026-08-28 00:00:00,2025-11-04 00:00:00,,0,0,1,0,,,2024-12-01 00:00:00,,0,0,0,0,81271638_239973,1,"Package Installed Version Required Version
+log4j 1.2.17-16.el7_4.noarch 1.2.17-17.el7_4","Keshavarz, Ali",1
