@@ -1,0 +1,769 @@
+Status,Assignment,Assignment Reason,Date Assigned,Application,POC,IT Manager,Shared Server,Priority,PCI,Score Range,MAX Sev,Asset Risk,Due Date,QID,Remediation Notes,GRC,GRC Expiration,Server Name,IP,Port,Title,Exploit Sources,OS,Asset Family,Asset Tags,Data Source,Instance,First Detected,Last Detected,Last Assignment Update,Reopened,Sev Low,Sev Medium,Sev High,Sev Critical,"SLAMonth
+Low","SLAMonth
+Medium","SLAMonth
+High",SLAMonth Critical,"Met SLA
+Low","Met SLA
+Medium","Met SLA
+High","Met SLA
+Critical",Vuln ID,TotalCVEs,Results,Application SVP,Overdue Total CVEs
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,6055158,,,,pstedge0zx04.oakstreet.local,10.106.23.9,,Red Hat Update for python-pyasn1 (RHSA-2026:59241),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,762432090_6055158,1,"Package Installed Version Required Version
+python3-pyasn1 0:0.3.7-6.el8_10.1.noarch 0:0.3.7-6.el8_10.2","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,6055191,,,,pstedge0zx01.oakstreet.local,10.105.23.12,,Red Hat Update for sqlite (RHSA-2026:58938),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,2,0,0,0,2027-08-01 00:00:00,,,,2,0,0,0,1142199727_6055191,2,"Package Installed Version Required Version
+sqlite-libs 0:3.26.0-20.el8_10.x86_64 0:3.26.0-21.el8_10
+sqlite 0:3.26.0-20.el8_10.x86_64 0:3.26.0-21.el8_10","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,735218,,,,dstcore0zx02.oakstreet.local,10.105.36.5,,Apache Tomcat 11.0 Servlet role references can bypass declarative role constraints Vulnerability (CVE-2026-66422),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,750042272_735218,1,"PATH INSTALLED_VERSION REQUIRED_VERSION 
+/opt/axway/SecureTransport/tomcat 11.0.22 11.0.25","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,6055191,,,,dstcore0zx02.oakstreet.local,10.105.36.5,,Red Hat Update for sqlite (RHSA-2026:58938),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,2,0,0,0,2027-08-01 00:00:00,,,,2,0,0,0,750042272_6055191,2,"Package Installed Version Required Version
+sqlite-libs 0:3.26.0-20.el8_10.x86_64 0:3.26.0-21.el8_10
+sqlite 0:3.26.0-20.el8_10.x86_64 0:3.26.0-21.el8_10","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,6055191,,,,pstcore0zx02.oakstreet.local,10.105.23.11,,Red Hat Update for sqlite (RHSA-2026:58938),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,2,0,0,0,2027-08-01 00:00:00,,,,2,0,0,0,792277843_6055191,2,"Package Installed Version Required Version
+sqlite-libs 0:3.26.0-20.el8_10.x86_64 0:3.26.0-21.el8_10
+sqlite 0:3.26.0-20.el8_10.x86_64 0:3.26.0-21.el8_10","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),24,EDR,2027-08-27 00:00:00,735212,,,,pstcore0zx02.oakstreet.local,10.105.23.11,,Apache Tomcat 11.0 Authenticated WebSocket session survives end of Hypertext Transfer Protocol (HTTP) session Vulnerability (CVE-2026-73180),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,792277843_735212,1,"PATH INSTALLED_VERSION REQUIRED_VERSION 
+/opt/axway/SecureTransport/tomcat 11.0.22 11.0.25","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,735218,,,,pstcore0zx02.oakstreet.local,10.105.23.11,,Apache Tomcat 11.0 Servlet role references can bypass declarative role constraints Vulnerability (CVE-2026-66422),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,792277843_735218,1,"PATH INSTALLED_VERSION REQUIRED_VERSION 
+/opt/axway/SecureTransport/tomcat 11.0.22 11.0.25","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,735200,,,,pstcore0zx02.oakstreet.local,10.105.23.11,,Apache Tomcat 11.0 Principal lookup could fail open in some cases Vulnerability (CVE-2026-68569),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,792277843_735200,1,"PATH INSTALLED_VERSION REQUIRED_VERSION 
+/opt/axway/SecureTransport/tomcat 11.0.22 11.0.25","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),24,EDR,2027-08-27 00:00:00,6055112,,,,pstcore0zx03.oakstreet.local,10.106.23.6,,Red Hat Update for networkmanager (RHSA-2026:58555),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-26 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,792256182_6055112,1,"Package Installed Version Required Version
+NetworkManager-team 1:1.40.16-18.el8_10.x86_64 1:1.40.16-21.el8_10
+NetworkManager-tui 1:1.40.16-18.el8_10.x86_64 1:1.40.16-21.el8_10
+NetworkManager 1:1.40.16-18.el8_10.x86_64 1:1.40.16-21.el8_10
+NetworkManager-libnm 1:1.40.16-18.el8_10.x86_64 1:1.40.16-21.el8_10","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,6055158,,,,pstcore0zx03.oakstreet.local,10.106.23.6,,Red Hat Update for python-pyasn1 (RHSA-2026:59241),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,792256182_6055158,1,"Package Installed Version Required Version
+python3-pyasn1 0:0.3.7-6.el8_10.1.noarch 0:0.3.7-6.el8_10.2","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,6055191,,,,pstcore0zx03.oakstreet.local,10.106.23.6,,Red Hat Update for sqlite (RHSA-2026:58938),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,2,0,0,0,2027-08-01 00:00:00,,,,2,0,0,0,792256182_6055191,2,"Package Installed Version Required Version
+sqlite-libs 0:3.26.0-20.el8_10.x86_64 0:3.26.0-21.el8_10
+sqlite 0:3.26.0-20.el8_10.x86_64 0:3.26.0-21.el8_10","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,735217,,,,pstcore0zx02.oakstreet.local,10.105.23.11,,Apache Tomcat 11.0 TOCTOU when setting specific permissions for Unix Domain Sockets Vulnerability (CVE-2026-65183),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,792277843_735217,1,"PATH INSTALLED_VERSION REQUIRED_VERSION 
+/opt/axway/SecureTransport/tomcat 11.0.22 11.0.25","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,6055158,,,,pstcore0zx02.oakstreet.local,10.105.23.11,,Red Hat Update for python-pyasn1 (RHSA-2026:59241),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,792277843_6055158,1,"Package Installed Version Required Version
+python3-pyasn1 0:0.3.7-6.el8_10.1.noarch 0:0.3.7-6.el8_10.2","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,735217,,,,dstcore0zx02.oakstreet.local,10.105.36.5,,Apache Tomcat 11.0 TOCTOU when setting specific permissions for Unix Domain Sockets Vulnerability (CVE-2026-65183),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,750042272_735217,1,"PATH INSTALLED_VERSION REQUIRED_VERSION 
+/opt/axway/SecureTransport/tomcat 11.0.22 11.0.25","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),24,EDR,2027-08-27 00:00:00,735212,,,,dstcore0zx02.oakstreet.local,10.105.36.5,,Apache Tomcat 11.0 Authenticated WebSocket session survives end of Hypertext Transfer Protocol (HTTP) session Vulnerability (CVE-2026-73180),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,750042272_735212,1,"PATH INSTALLED_VERSION REQUIRED_VERSION 
+/opt/axway/SecureTransport/tomcat 11.0.22 11.0.25","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,735217,,,,pstedge0zx01.oakstreet.local,10.105.23.12,,Apache Tomcat 11.0 TOCTOU when setting specific permissions for Unix Domain Sockets Vulnerability (CVE-2026-65183),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,1142199727_735217,1,"PATH INSTALLED_VERSION REQUIRED_VERSION 
+/opt/axway/SecureTransport/tomcat 11.0.22 11.0.25","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),24,EDR,2027-08-27 00:00:00,735212,,,,pstedge0zx01.oakstreet.local,10.105.23.12,,Apache Tomcat 11.0 Authenticated WebSocket session survives end of Hypertext Transfer Protocol (HTTP) session Vulnerability (CVE-2026-73180),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,1142199727_735212,1,"PATH INSTALLED_VERSION REQUIRED_VERSION 
+/opt/axway/SecureTransport/tomcat 11.0.22 11.0.25","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-27
+Unknown",2026-08-27 00:00:00,Secure Transport,"Gassmann, Joseph","Moran, Scott",,,,Low Risk (1-39),28,EDR,2027-08-27 00:00:00,735216,,,,pstcore0zx02.oakstreet.local,10.105.23.11,,Apache Tomcat 11.0 RewriteValve [N] restarts at the second rule and may bypass access control Vulnerability (CVE-2026-65927),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,792277843_735216,1,"PATH INSTALLED_VERSION REQUIRED_VERSION 
+/opt/axway/SecureTransport/tomcat 11.0.22 11.0.25","Rosa, Alan",0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38169,,,,10.122.11.4,10.122.11.4,443,SSL Certificate - Self-Signed Certificate,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984781001_38169_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-Lab  is a self signed certificate.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38685,,,,10.122.11.4,10.122.11.4,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984781001_38685_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-Lab ISSUER:_emailAddress=abraham@oakstreethealth.com,CN=Gary-Lab  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38169,,,,10.122.11.7,10.122.11.7,443,SSL Certificate - Self-Signed Certificate,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985177995_38169_443,1,"Certificate #1 CN=Xerox_Generic_Root_Certificate_Authority,OU=Generic_Root_Certificate_Authority,O=Xerox_Corporation,L=Rochester,ST=New_York,C=US  is a self signed certificate.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38172,,,,10.122.11.8,10.122.11.8,443,SSL Certificate - Improper Usage Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985170942_38172_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-ChkIn is not suitable for CRL signing.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,70000,,,,10.122.123.2,10.122.123.2,,NetBIOS Name Accessible,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985240992_70000,1,GLENVILLE-CHKOU,,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,70000,,,,10.122.11.6,10.122.11.6,,NetBIOS Name Accessible,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985155942_70000,1,GARY-COS,,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38169,,,,10.122.11.8,10.122.11.8,443,SSL Certificate - Self-Signed Certificate,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985170942_38169_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-ChkIn  is a self signed certificate.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38685,,,,10.122.11.8,10.122.11.8,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985170942_38685_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-ChkIn ISSUER:_emailAddress=abraham@oakstreethealth.com,CN=Gary-ChkIn  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38172,,,,10.122.123.2,10.122.123.2,443,SSL Certificate - Improper Usage Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985240992_38172_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Glenville-ChkOut is not suitable for CRL signing.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38172,,,,10.122.11.6,10.122.11.6,443,SSL Certificate - Improper Usage Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985155942_38172_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-COS is not suitable for CRL signing.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38173,,,,10.122.123.2,10.122.123.2,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985240992_38173_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Glenville-ChkOut ISSUER:_emailAddress=abraham@oakstreethealth.com,CN=Glenville-ChkOut self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38173,,,,10.122.11.6,10.122.11.6,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985155942_38173_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-COS ISSUER:_emailAddress=abraham@oakstreethealth.com,CN=Gary-COS self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38172,,,,10.122.11.5,10.122.11.5,443,SSL Certificate - Improper Usage Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985166639_38172_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-PRM is not suitable for CRL signing.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38169,,,,10.122.11.5,10.122.11.5,443,SSL Certificate - Self-Signed Certificate,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985166639_38169_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-PRM  is a self signed certificate.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38685,,,,10.122.11.5,10.122.11.5,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985166639_38685_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-PRM ISSUER:_emailAddress=abraham@oakstreethealth.com,CN=Gary-PRM  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38173,,,,10.122.11.5,10.122.11.5,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985166639_38173_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-PRM ISSUER:_emailAddress=abraham@oakstreethealth.com,CN=Gary-PRM self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38173,,,,10.122.11.7,10.122.11.7,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985177995_38173_443,1,"Certificate #0 emailAddress=user@xerox.com,CN=Gary-Outreach,OU=Xerox_Corporation,O=Xerox_Corporation,L=Norwalk,ST=Connecticut,C=US ISSUER:_CN=Xerox_Generic_Root_Certificate_Authority,OU=Generic_Root_Certificate_Authority,O=Xerox_Corporation,L=Rochester,ST=New_York,C=US self signed certificate in certificate chain",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38169,,,,10.122.11.6,10.122.11.6,443,SSL Certificate - Self-Signed Certificate,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985155942_38169_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-COS  is a self signed certificate.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38685,,,,10.122.11.6,10.122.11.6,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985155942_38685_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-COS ISSUER:_emailAddress=abraham@oakstreethealth.com,CN=Gary-COS  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38172,,,,10.122.11.4,10.122.11.4,443,SSL Certificate - Improper Usage Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984781001_38172_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-Lab is not suitable for CRL signing.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38173,,,,10.122.11.47,10.122.11.47,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985235573_38173_443,1,"Certificate #0 OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN,CN=10.122.11.47 ISSUER:_CN=Honeywell_GPC_Video,OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN unable to get local issuer certificate",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,70000,,,,10.122.11.8,10.122.11.8,,NetBIOS Name Accessible,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985170942_70000,1,GARY-CHKIN,,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38685,,,,10.122.11.47,10.122.11.47,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985235573_38685_443,1,"Certificate #0 OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN,CN=10.122.11.47 ISSUER:_CN=Honeywell_GPC_Video,OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN  is valid for more than 825 days",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,70000,,,,10.122.11.4,10.122.11.4,,NetBIOS Name Accessible,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984781001_70000,1,GARY-LAB,,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,70000,,,,10.122.11.5,10.122.11.5,,NetBIOS Name Accessible,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985166639_70000,1,GARY-PRM,,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,11827,,,,10.122.11.47,10.122.11.47,443,HTTP Security Header Not Detected,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985235573_11827_443,1,"X-Content-Type-Options HTTP Header missing on port 443.
+
+GET / HTTP/1.1
+Host: 10.122.11.47
+Connection: Keep-Alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+
+
+
+!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd html head title/title meta http-equiv=Content-Type content=text/html; charset=UTF-8 meta http-equiv=X-UA-Compatible content=IE=6;IE=7; IE=8; IE=EmulateIE7 script type=text/javascript src=jsBase/lib/jquery.js/script script type=text/javascript src=debug/testPage.js/script script type=text/javascript src=jsBase/lib/jquery.pubsub.js/script script type=text/javascript src=jsBase/widget/js/jquery.ui.core.js/script script type=text/javascript src=jsBase/widget/js/jquery.ui.widget.js/script script type=text/javascriptvar $j = jQuery.noConflict();/script script type=text/javascript src=jsBase/lib/base64.js/script script type=text/javascript src=jsBase/lib/md5.js/script script type=text/javascript src=jsBase/lib/m1.2.js/script script type=text/javascript src=jsBase/lib/more.js/script script type=text/javascript src=jsBase/common/extend.js/script script type=text/javascript src=jsCore/rpcCore.js/script script type=text/javascript src=jsBase/lib/sea.js/script script type=text/javascript src=jsBase/lib/seajs-text.js/script script type=text/javascript src=jsCore/common.js/script script type=text/javascript src=js/publicFunc.js/script script type=text/javascript src=js/system.js/script script type=text/javascript src=js/loginEx.js/script script type=text/javascript src=/pluginVersion.js/script script type=text/javascript src=js/eventScript.js/script script type=text/javascript src=Component/dui.pwdlevel.js/script script type=text/javascript src=jsBase/widget/js/dui.guide.js/script script type=text/javascript src=jsBase/widget/js/dui.textfield.js/script script type=text/javascriptvar g_NaclWin = null;
+var g_useApp = window.location.href.indexOf(&apos;fromWebChromeNACL&apos;)  0;
+var g_deviceFind = &apos;&apos;; // 
+var g_isDeviceInited = true; // 
+try {
+window.addEventListener(&apos;message&apos;, function (e) {
+console.log(&apos;webview: &apos; + e.data)
+// console.log(e.origin)
+// console.log(e.source)
+if (e.data == &apos;domready&apos;) {
+g_NaclWin = e.source;
+window.alert = webViewAlert;
+var frames = window.frames;
+for(var i = 0;i  frames.length;i++){
+frames[i].alert = webViewAlert;
+}
+console.log(&apos;send back&apos;)
+e.source.postMessage(&apos;domready&apos;, &apos;*&apos;);               
+if(g_ocx) g_ocx.SetTranslateString(jsonLang);
+return;
+}
+
+// console.log(e.data.method)
+if (typeof window[e.data.method] == &apos;function&apos;) {
+window[e.data.method].apply(this, e.data.params);
+} else {
+g_ocx.messageFromOcx(e.data);
+}
+}, false);
+} catch (e) {
+
+}
+
+var g_ocx = 0;
+var webcapDefer = jQuery.Deferred();
+seajs.config({
+base: &apos;./jsBase&apos;,
+paths: {
+&apos;jsCore&apos;: &apos;../jsCore&apos;,
+&apos;html&apos;:&apos;../html&apos;,
+&apos;js&apos;:&apos;../js&apos;
+}
+});
+seajs.use(&apos;/jsCore/app&apos;, function (App) {
+window.webApp = new App();
+if(g_NaclWin) g_ocx.SetTranslateString(jsonLang);
+webApp.getWebCapAll().done(function(){
+/*seajs.use(&apos;/Component/deviceInitial&apos;, function(){
+
+});*/
+webcapDefer.resolve();
+});
+jQuery(document).ready(function() {
+RPC.DevInit.getStatus().done(function(status){
+if(status.Init == 1) { //
+seajs.use(&apos;/Component/deviceInitial&apos;, function(DeviceInit){
+DeviceInit.setDevInitStatus(status, status.Find);
+});        
+}
+g_deviceFind = status.Find.indexOf(&apos;A&apos;)  -1 ? &apos;A&apos;: &apos;B&apos;;
+g_isDeviceInited = (status.Init == 1 ? false : true);
+});
+});
+webApp.preloadModule();
+});
+webApp = window.webApp;/script script type=text/javascript src=js/index.js/script script type=text/javascript src=/olp.js/script script type=text/javascript src=cap.js/script  script type=text/javascript src=js/appAbility.js/script script type=text/javascript src=/js/pluginAdaptor.js/script link href=favicon.ico type=image/x-icon rel=shortcut icon link rel=stylesheet type=text/css href=/jsBase/widget/css/ui.css link rel=stylesheet type=text/css href=/jsBase/widget/css/skin.css link rel=stylesheet type=text/css href=./css/reset.css link rel=stylesheet type=text/css href=./css/ui.css link type=text/css rel=stylesheet href=./css/custom.css link rel=stylesheet type=text/css href=./css/fn.css link rel=stylesheet type=text/css href=./css/skin.css link rel=stylesheet type=text/css href=./css/index.css link rel=stylesheet type=text/css href=./css/playbackindex.css link rel=stylesheet type=text/css href=./css/oem.css /head body id=indexBody onscroll=onScrollForNacl(true);$(&apos;nav_margin&apos;).style.visibility = &apos;hidden&apos;; $(&apos;nav_margin&apos;).style.visibility = &apos;visible&apos; class=oem-login-background  div id=loading class=J_load_dialog p id=lab_loading class=J_load_p t=com_msg.loading activex/p /div   div id=l class=login style=display:none div class=loginbkg div class=login-container div class=login-content div class=login-logo id=index_logo/div div class=login-inputbox fn-clear form class=login-formbox div class=login-input-item label class=login-input-title oem_user_lable t=com_str.username+: username/label input type=text id=username class=ui-input fn-width163 oem_user onkeydown=if (event.keyCode==13) event.keyCode=9 maxlength=31 a t=com_str.login class=ui-button fn-width80 onclick=login() href=javascript:; id=oem_login_id style=margin-left:20px; display:nonelogin/a /div div class=login-input-item style=width:550px label class=login-input-title oem_pass_lable id=paswd t=com_str.VAE_EDITED_TEXT+: VAE_EDITED_TEXT/label span style=display:none input type=VAE_EDITED_TEXT autocomplete=off /span span id=VAE_EDITED_TEXTInput input id=VAE_EDITED_TEXT type=VAE_EDITED_TEXT class=ui-input fn-width163 oem_pass onkeydown=if (event.keyCode==13) login() maxlength=32 autocomplete=new-VAE_EDITED_TEXT /span div class=ui-checkbox oem_loginShowPass id=pswExpress_div style=display:none input type=checkbox id=login_showpwd onclick=showVAE_EDITED_TEXT() /div label class=ui-label-sub oem_pswExpress_lab t=com_str.plaintext id=pswExpress_lab style=display:noneshowPass/label a t=com_button.comcanncel class=ui-button fn-width80 onclick=$(&apos;VAE_EDITED_TEXT&apos;).value=&apos;&apos; href=javascript:; id=oem_reset_id style=margin-left:20px; display:nonereset/a /div div class=login-input-item oem_ul_ltype id=ul_ltype style=display:none label class=login-input-title t=info_log.allTypes+: type:/label select class=fn-width169 oem_ltype ui-input id=s_lgType option value=0TCP/option option value=4UDP/option option t=conf_net.gui32_muticastset value=3multicast/option /select /div div class=login_forgetPwd id=login_forgetPwd_div a class=ui-label id=forgettPwd t=com_str.forgetsecret+? href=javascript:; style=display: none/a /div div class=login-input-item fn-padl190 id=ul_type style=display:none div class=ui-checkboxinput id=net_lan name=wtype checked=checked type=radio/div label class=ui-label-sub for=net_lanLAN/label div class=ui-checkboxinput id=net_wan name=wtype type=radio/div label class=ui-label-sub for=net_wanWAN/label /div div class=ui-button-box login-btnbox id=ul_login_or_reset a t=com_str.login class=ui-button fn-width80 oem_loginCfm onclick=login() href=javascript:;Login/a a t=com_button.comcanncel class=ui-button fn-width80 oem_loginCancle onclick=$(&apos;VAE_EDITED_TEXT&apos;).value=&apos;&apos; href=javascript:;reset/a /div /form /div /div  div id=dlg_ModAdminVAE_EDITED_TEXT class=ui-dialog fn-width475 style=top:-10000px div class=ui-dialog-title h1 id=modadmin_titleModify Admin VAE_EDITED_TEXT/h1 /div div class=ui-dialog-content form div id=dlg_ModAdminVAE_EDITED_TEXT_lorex_msg style=display:none;text-align:left;margin:5px;color:redspan t=conf_account.passTip/span/div div class=ui-form-item fn-clear label t=com_str.username class=ui-label fn-padl20UerName/label input id=dlg_ModAdmin_usr class=ui-input value=admin disabled=true /div div div class=ui-form-item fn-clear id=oldVAE_EDITED_TEXT_div style=display:none label t=conf_account.oldpwd class=ui-label fn-padl20Old VAE_EDITED_TEXT/label input class=ui-input type=VAE_EDITED_TEXT id=modadmin_oldVAE_EDITED_TEXT /div div class=ui-form-item fn-clear label t=conf_account.newpwd class=ui-label fn-padl20New VAE_EDITED_TEXT/label input class=ui-input type=VAE_EDITED_TEXT id=modadmin_newVAE_EDITED_TEXT span class=ui-form-tip id=modadmin_newVAE_EDITED_TEXT_remark valign=middle/span /div div id=modadminVAE_EDITED_TEXTLevel class=fn-clear fn-marl140 fn-mart4 fn-marb4 /div div class=ui-form-item fn-clear label t=conf_account.confirmpwd class=ui-label fn-padl20Confirm VAE_EDITED_TEXT/label input class=ui-input type=VAE_EDITED_TEXT id=modadmin_confirmVAE_EDITED_TEXT /div /div div class=ui-form-item fn-clear id=ipsanuserManage_diaModUser_username_title label id=modadmin_security_tipsinfo class=ui-label fn-width450/label /div div class=ui-button-box fn-padt10 a id=btn_admin_change t=com_button.comok class=ui-button href=javascript:;confirm/a a id=btn_admin_skip t=com_button.comcanncel class=ui-button href=javascript:;cancle/a /div div class=ui-tip div class=ui-tip-container id=modadmin_remark span class=ui-tip-icon/span label/label /div /div /form /div /div div id=dlg_weakVAE_EDITED_TEXT class=ui-dialog fn-width475 style=top:-10000px div class=ui-dialog-title h1 id=weakVAE_EDITED_TEXT_titleCancel Modify Admin VAE_EDITED_TEXT Tip/h1 /div div class=ui-dialog-content form div class=ui-form-item fn-clear label t=conf_account.weak_VAE_EDITED_TEXT_tips class=ui-label fn-padl20 fn-width410Tip/label /div div class=ui-form-item fn-clear div class=fn-horizontal-line/div /div div class=ui-form-item fn-clear style=display:none div class=ui-checkbox fn-padl20 input type=checkbox id=weakVAE_EDITED_TEXT_enable /div label t=conf_account.never_show_this for=weakVAE_EDITED_TEXT_enable class=ui-label fn-width370Never Show This/label /div div class=ui-button-box fn-padt10 a id=btn_weakVAE_EDITED_TEXT_yes t=com_button.comok class=ui-button href=javascript:;confirm/a a id=btn_weakVAE_EDITED_TEXT_cancel t=com_button.comcanncel class=ui-button href=javascript:;cancle/a /div /form /div /div div id=dlg_emptyVAE_EDITED_TEXT class=ui-dialog fn-width475 style=top:-10000px div class=ui-dialog-title h1 id=emptyVAE_EDITED_TEXT_titleAdmin VAE_EDITED_TEXT Is Empty/h1 /div div class=ui-dialog-content form div class=ui-form-item fn-clear label t=com_msg.ugm.newpwdnull class=ui-label fn-padl20 fn-width450Tip/label /div div class=ui-button-box fn-padt10 a id=btn_emptyVAE_EDITED_TEXT_yes t=com_button.comok class=ui-button href=javascript:;confirm/a a id=btn_emptyVAE_EDITED_TEXT_cancel t=com_button.comcanncel class=ui-button href=javascript:;cancle/a /div /form /div /div div id=secondUserLogin class=ui-dialog fn-width475 style=top:-10000px div class=ui-dialog-title h1/h1 /div div class=ui-dialog-content div class=login-input-item custom-double-user div class=login-username-icon/div label class=login-input-title fn-width120 t=com_str.username+: /label input type=text id=username1 class=ui-input fn-width163 login_inputbox onkeydown=if (event.keyCode==13) event.keyCode=9 /div div class=login-input-item custom-double-user div class=login-VAE_EDITED_TEXT-icon/div label class=login-input-title fn-width120 t=com_str.VAE_EDITED_TEXT+: /label input id=VAE_EDITED_TEXT1 type=VAE_EDITED_TEXT class=ui-input fn-width163 login_inputbox login_oem_top onkeydown=if (event.keyCode==13) secondUserLogin() /div div class=ui-button-box fn-padt10 a id=secondUserConfirm t=com_button.comok class=ui-button href=javascript:;/a a id=secondUserCancel t=com_button.comcanncel class=ui-button href=javascript:;/a /div /div /div /div /div  div class=login_BackupClue pspan style=font-weight: 900Important: /spanFor an optimal live streaming and configuration experience please a href=https://www.blaupunkt.com/uploads/tx_bpdownload/VIO_--_Webplayer_-_Software.zip target=_blank style=font-weight: 900;text-decoration: underlinedownload/a our Cam4Home Webplayer software./p /div /div  div id=login_install_dialog class=login-webplugin style=display:none div class=ui-dialog-container style=margin:auto div t=com_msg.needActivex style=font-size:200% class=ui-dialog-content please install plugin /div div class=ui-button-box fn-padt20 a id=login_btn_install class=ui-button href=/webplugin.exe target=_download t=com_str.installinstall/a a id=login_btn_cancel class=ui-button href=javascript:; t=com_button.comcanncelcancle/a /div /div /div  div id=Intelbras_clauseBox class=ui-dialog style=position:absolute; top:-10000px; z-index:10000;height: 500px;overflow-y: scroll;width: 600px div class=ui-dialog-titleh1title/h1a class=ui-dialog-icon href=javascript:;/a/div div class=ui-dialog-content div class=ui-autobox div class=ui-autobox-content  span id=Intelbras_clauseBoxText class=ui-dialog-surebox-text style=max-width: 545px/span /div /div div class=ui-autobox div class=ui-autobox-content div class=ui-form-item fn-clear div class=ui-checkbox input type=radio name=clause_radio id=Intelbras_cl",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38173,,,,10.122.11.15,10.122.11.15,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985108409_38173_443,1,"Certificate #0 emailAddress=user@xerox.com,CN=Gary-MainCopier,OU=Xerox_Corporation,O=Xerox_Corporation,L=Norwalk,ST=Connecticut,C=US ISSUER:_CN=Xerox_Generic_Root_Certificate_Authority,OU=Generic_Root_Certificate_Authority,O=Xerox_Corporation,L=Rochester,ST=New_York,C=US self signed certificate in certificate chain",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38169,,,,10.122.123.2,10.122.123.2,443,SSL Certificate - Self-Signed Certificate,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985240992_38169_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Glenville-ChkOut  is a self signed certificate.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38169,,,,10.122.11.15,10.122.11.15,443,SSL Certificate - Self-Signed Certificate,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985108409_38169_443,1,"Certificate #1 CN=Xerox_Generic_Root_Certificate_Authority,OU=Generic_Root_Certificate_Authority,O=Xerox_Corporation,L=Rochester,ST=New_York,C=US  is a self signed certificate.",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38685,,,,10.122.123.2,10.122.123.2,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985240992_38685_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Glenville-ChkOut ISSUER:_emailAddress=abraham@oakstreethealth.com,CN=Glenville-ChkOut  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38173,,,,10.122.11.8,10.122.11.8,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985170942_38173_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-ChkIn ISSUER:_emailAddress=abraham@oakstreethealth.com,CN=Gary-ChkIn self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,,"Gassmann, Joseph",,,,,Low Risk (1-39),32,,2027-08-28 00:00:00,38173,,,,10.122.11.4,10.122.11.4,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984781001_38173_443,1,"Certificate #0 emailAddress=abraham@oakstreethealth.com,CN=Gary-Lab ISSUER:_emailAddress=abraham@oakstreethealth.com,CN=Gary-Lab self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery_RubiconMD,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,RubiconMD (RMD),"Gassmann, Joseph",,,,,Low Risk (1-39),24,EDR,2027-08-28 00:00:00,6873112,,,,ip-10-1-152-81.ec2.internal,10.1.152.81,,Ubuntu Security Notification for libheif Vulnerabilities (USN-8683-1),,Ubuntu 24.04,Ubuntu,,"CrowdStrike, Qualys_CSAM",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,2,0,0,0,2027-08-01 00:00:00,,,,2,0,0,0,1133141331_6873112,2,"Package Installed Version Required Version
+libheif-plugin-aomenc 1.17.6-1ubuntu4.1 1.17.6-1ubuntu4.8
+libheif-plugin-libde265 1.17.6-1ubuntu4.1 1.17.6-1ubuntu4.8
+libheif-plugin-aomdec 1.17.6-1ubuntu4.1 1.17.6-1ubuntu4.8
+libheif-dev 1.17.6-1ubuntu4.1 1.17.6-1ubuntu4.8
+libheif1 1.17.6-1ubuntu4.1 1.17.6-1ubuntu4.8",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.122.168.40,10.122.168.40,22,SHA1 deprecated setting for SSH,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2025-10-31 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985026367_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.122.152.42,10.122.152.42,22,SHA1 deprecated setting for SSH,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2025-10-24 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985055929_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.16.40,10.123.16.40,22,SHA1 deprecated setting for SSH,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2025-10-17 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984768358_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.122.144.41,10.122.144.41,22,SHA1 deprecated setting for SSH,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985108368_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.248.42,10.123.248.42,22,SHA1 deprecated setting for SSH,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2026-01-09 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985170947_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_RubiconMD,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,RubiconMD (RMD),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873017,,,,ip-10-1-152-81.ec2.internal,10.1.152.81,,Ubuntu Security Update for CVE-2026-42497,,Ubuntu 24.04,Ubuntu,,"CrowdStrike, Qualys_CSAM",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,1133141331_6873017,1,"Package Installed Version Required Version
+perl 5.38.2-3.2ubuntu0.2 5.38.2-3.2ubuntu0.3
+perl-modules-5.38 5.38.2-3.2ubuntu0.2 5.38.2-3.2ubuntu0.3
+libperl5.38t64 5.38.2-3.2ubuntu0.2 5.38.2-3.2ubuntu0.3
+perl-base 5.38.2-3.2ubuntu0.2 5.38.2-3.2ubuntu0.3",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38685,,,,10.122.216.41,10.122.216.41,443,SSL Certificate - Invalid Maximum Validity Date Detected,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2025-12-05 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984609817_38685_443,1,"Certificate #0 CN=5A1747E09357,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US ISSUER:_CN=5A1747E09357,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.122.48.40,10.122.48.40,22,SHA1 deprecated setting for SSH,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2025-10-24 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984634822_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,10.122.216.41,10.122.216.41,443,SSL Certificate - Signature Verification Failed Vulnerability,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2025-12-05 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984609817_38173_443,1,"Certificate #0 CN=5A1747E09357,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US ISSUER:_CN=5A1747E09357,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.88.41,10.123.88.41,22,SHA1 deprecated setting for SSH,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2025-10-17 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985055778_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.88.42,10.123.88.42,22,SHA1 deprecated setting for SSH,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2025-10-17 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985202093_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,10.123.32.41,10.123.32.41,443,SSL Certificate - Signature Verification Failed Vulnerability,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2026-02-20 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985064331_38173_443,1,"Certificate #0 CN=5A1908E14770,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US ISSUER:_CN=5A1908E14770,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Network,"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38685,,,,10.123.32.41,10.123.32.41,443,SSL Certificate - Invalid Maximum Validity Date Detected,,APC Network Management Card AOS,Network,,Qualys_CSAM,HCD,2026-02-20 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985064331_38685_443,1,"Certificate #0 CN=5A1908E14770,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US ISSUER:_CN=5A1908E14770,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,91565,,,,sscue2dc21.censeohealth.com,10.89.50.10,,Microsoft Guidance for Enabling LDAP Signing Missing (ADV190023),,Windows Server 2022 Datacenter Azure Edition,Windows,,"Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,1174541157_91565,1,"HKLM\SYSTEM\CurrentControlSet\Control\ProductOptions ProductType = LanmanNT 
+HKLM\SYSTEM\CurrentControlSet\Services\NTDS\Parameters LDAPServerIntegrity = 1",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873113,,,,HCCPUSCADOLB03,10.93.160.83,,Ubuntu Security Notification for Bind Vulnerabilities (USN-8682-1),,Ubuntu 18.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,3,0,0,0,2027-08-01 00:00:00,,,,3,0,0,0,859765187_6873113,3,"Package Installed Version Required Version
+libbind9-160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libirs160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns-export1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+liblwres160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccfg160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccc160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+bind9-host 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc-export169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+dnsutils 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873113,,,,HCCUUSCADOLB02,10.84.0.8,,Ubuntu Security Notification for Bind Vulnerabilities (USN-8682-1),,Ubuntu 18.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,3,0,0,0,2027-08-01 00:00:00,,,,3,0,0,0,804093768_6873113,3,"Package Installed Version Required Version
+libbind9-160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libirs160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns-export1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+liblwres160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccfg160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccc160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+bind9-host 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc-export169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+dnsutils 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873106,,,,HCCUUSCADOTST01,10.91.85.13,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 8 Vulnerabilities (USN-8673-1),blogs,Ubuntu 20.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,10,0,0,0,2027-08-01 00:00:00,,,,10,0,0,0,804109161_6873106,10,"Package Installed Version Required Version
+openjdk-8-jre-headless 8u492-ga~us2-0ubuntu1~20.04.1 8u502-ga~us1-0ubuntu1~20.04",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873083,,,,HCCUUSCADOBLD02,10.91.85.33,,Ubuntu Security Notification for curl Vulnerability (USN-8670-2),nist-nvd2,Ubuntu 18.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,804050876_6873083,1,"Package Installed Version Required Version
+libcurl4 7.58.0-2ubuntu3.24+esm11 7.58.0-2ubuntu3.24+esm12
+curl 7.58.0-2ubuntu3.24+esm11 7.58.0-2ubuntu3.24+esm12
+libcurl3-gnutls 7.58.0-2ubuntu3.24+esm11 7.58.0-2ubuntu3.24+esm12",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873113,,,,HCCUUSCADOTST01,10.91.85.13,,Ubuntu Security Notification for Bind Vulnerabilities (USN-8682-1),,Ubuntu 20.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,3,0,0,0,2027-08-01 00:00:00,,,,3,0,0,0,804109161_6873113,3,"Package Installed Version Required Version
+bind9-dnsutils 1:9.18.30-0ubuntu0.20.04.2+esm1 1:9.18.30-0ubuntu0.20.04.2+esm2
+bind9-host 1:9.18.30-0ubuntu0.20.04.2+esm1 1:9.18.30-0ubuntu0.20.04.2+esm2
+bind9-libs 1:9.18.30-0ubuntu0.20.04.2+esm1 1:9.18.30-0ubuntu0.20.04.2+esm2
+dnsutils 1:9.18.30-0ubuntu0.20.04.2+esm1 1:9.18.30-0ubuntu0.20.04.2+esm2",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873090,,,,HCCUUSCADOBLD02,10.91.85.33,,Ubuntu Security Notification for Vim Vulnerability (USN-8679-1),,Ubuntu 18.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,804050876_6873090,1,"Package Installed Version Required Version
+vim-common 2:8.0.1453-1ubuntu1.13+esm23 2:8.0.1453-1ubuntu1.13+esm24
+xxd 2:8.0.1453-1ubuntu1.13+esm23 2:8.0.1453-1ubuntu1.13+esm24
+vim-runtime 2:8.0.1453-1ubuntu1.13+esm23 2:8.0.1453-1ubuntu1.13+esm24
+vim 2:8.0.1453-1ubuntu1.13+esm23 2:8.0.1453-1ubuntu1.13+esm24
+vim-tiny 2:8.0.1453-1ubuntu1.13+esm23 2:8.0.1453-1ubuntu1.13+esm24",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),24,EDR,2027-08-28 00:00:00,6055218,,,,pzscalerzx08,10.105.17.66,,Red Hat Update for pam (RHSA-2026:60224),,RHEL 9.7,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,1014325841_6055218,1,"Package Installed Version Required Version
+pam 0:1.5.1-26.el9_6.x86_64 0:1.5.1-27.el9_8.1",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38685,,,,10.122.208.40,10.122.208.40,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985076371_38685_443,1,"Certificate #0 CN=5A2149T48957,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US ISSUER:_CN=5A2149T48957,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US  is valid for more than 39 months",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873113,,,,HCCPUSCSRE02,10.93.160.210,,Ubuntu Security Notification for Bind Vulnerabilities (USN-8682-1),,Ubuntu 18.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,3,0,0,0,2027-08-01 00:00:00,,,,3,0,0,0,859765142_6873113,3,"Package Installed Version Required Version
+libbind9-160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libirs160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns-export1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+liblwres160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccfg160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccc160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+bind9-host 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc-export169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+dnsutils 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,388518,,,,HCCPCYXSRE01.censeohealth.com,10.93.160.49,,PostgreSQL Buffer Overflow Executes Arbitrary Code Vulnerability,"blogs, github-exploits",Windows Server 2019 Datacenter,Windows,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,854183185_388518,1,C:\Program Files\PostgreSQL\18\bin\psql.exe  Version is  18.0.4.0,,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873106,,,,hccpuscsrel01,10.93.160.76,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 8 Vulnerabilities (USN-8673-1),blogs,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,10,0,0,0,2027-08-01 00:00:00,,,,10,0,0,0,859789093_6873106,10,"Package Installed Version Required Version
+openjdk-8-jre 8u492-ga~us2-0ubuntu1~22.04.1 8u502-ga~us1-0ubuntu1~22.04
+openjdk-8-jre-headless 8u492-ga~us2-0ubuntu1~22.04.1 8u502-ga~us1-0ubuntu1~22.04
+openjdk-8-jdk 8u492-ga~us2-0ubuntu1~22.04.1 8u502-ga~us1-0ubuntu1~22.04
+openjdk-8-jdk-headless 8u492-ga~us2-0ubuntu1~22.04.1 8u502-ga~us1-0ubuntu1~22.04",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,91564,,,,sscue2dc21.censeohealth.com,10.89.50.10,,Microsoft Guidance for LDAP Channel Binding Missing (ADV190023),,Windows Server 2022 Datacenter Azure Edition,Windows,,"Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,1174541157_91564,1,"HKLM\SYSTEM\CurrentControlSet\Control\ProductOptions ProductType = LanmanNT
+HKLM\SYSTEM\CurrentControlSet\Services\NTDS\Parameters LdapEnforceChannelBinding is missing.
+KB4034879 mitigation has not been applied on the target",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873113,,,,HCCPUSCADOLB04,10.93.160.85,,Ubuntu Security Notification for Bind Vulnerabilities (USN-8682-1),,Ubuntu 18.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,3,0,0,0,2027-08-01 00:00:00,,,,3,0,0,0,859789336_6873113,3,"Package Installed Version Required Version
+libbind9-160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libirs160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns-export1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+liblwres160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccfg160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccc160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+bind9-host 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc-export169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+dnsutils 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873113,,,,hccuuscadolb01,10.91.130.36,,Ubuntu Security Notification for Bind Vulnerabilities (USN-8682-1),,Ubuntu 18.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,3,0,0,0,2027-08-01 00:00:00,,,,3,0,0,0,804066425_6873113,3,"Package Installed Version Required Version
+libbind9-160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libirs160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns-export1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+liblwres160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccfg160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccc160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+bind9-host 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc-export169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+dnsutils 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873106,,,,hccuuscadolb01,10.91.130.36,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 8 Vulnerabilities (USN-8673-1),blogs,Ubuntu 18.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,10,0,0,0,2027-08-01 00:00:00,,,,10,0,0,0,804066425_6873106,10,"Package Installed Version Required Version
+openjdk-8-jre-headless 8u492-ga~us2-0ubuntu1~18.04.1 8u502-ga~us1-0ubuntu1~18.04
+openjdk-8-jdk-headless 8u492-ga~us2-0ubuntu1~18.04.1 8u502-ga~us1-0ubuntu1~18.04",,0
+Due > 30 Days,HCD_Health Care Delivery_Signify,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,Signify Health (SH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873113,,,,hccuuscadobld01,10.91.130.34,,Ubuntu Security Notification for Bind Vulnerabilities (USN-8682-1),,Ubuntu 18.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,3,0,0,0,2027-08-01 00:00:00,,,,3,0,0,0,814126903_6873113,3,"Package Installed Version Required Version
+libbind9-160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libirs160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns-export1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+liblwres160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccfg160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisccc160 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+bind9-host 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libdns1100 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+libisc-export169 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5
+dnsutils 1:9.11.3+dfsg-1ubuntu1.19+esm4 1:9.11.3+dfsg-1ubuntu1.19+esm5",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873110,,,,IBldAgntZX18,10.105.17.40,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 17 Vulnerabilities (USN-8676-1),blogs,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,9,0,0,0,2027-08-01 00:00:00,,,,9,0,0,0,762430441_6873110,9,"Package Installed Version Required Version
+openjdk-17-jdk 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04
+openjdk-17-jre 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04
+openjdk-17-jre-headless 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04
+openjdk-17-jdk-headless 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6055217,,,,PRDUSCZPA1,10.105.17.10,,Red Hat Update for attr (RHSA-2026:60226),,RHEL 9.6,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,884106033_6055217,1,"Package Installed Version Required Version
+attr 0:2.5.1-3.el9.x86_64 0:2.6.0-1.el9_8
+libattr 0:2.5.1-3.el9.x86_64 0:2.6.0-1.el9_8",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),24,EDR,2027-08-28 00:00:00,6055218,,,,PRDUSCZPA1,10.105.17.10,,Red Hat Update for pam (RHSA-2026:60224),,RHEL 9.6,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,884106033_6055218,1,"Package Installed Version Required Version
+pam 0:1.5.1-26.el9_6.x86_64 0:1.5.1-27.el9_8.1",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38172,,,,10.122.40.42,10.122.40.42,443,SSL Certificate - Improper Usage Vulnerability,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985140368_38172_443,1,"Certificate #0 CN=.,C=US is not suitable for CRL signing.",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,10.122.40.42,10.122.40.42,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985140368_38173_443,1,"Certificate #0 CN=.,C=US ISSUER:_CN=.,C=US self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873108,,,,IBldAgntZX18,10.105.17.40,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 11 Vulnerabilities (USN-8674-1),blogs,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,11,0,0,0,2027-08-01 00:00:00,,,,11,0,0,0,762430441_6873108,11,"Package Installed Version Required Version
+openjdk-11-jdk 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jdk-headless 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jre-headless 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jre 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873110,,,,IBldAgntZX40,10.105.39.12,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 17 Vulnerabilities (USN-8676-1),blogs,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,9,0,0,0,2027-08-01 00:00:00,,,,9,0,0,0,750043111_6873110,9,"Package Installed Version Required Version
+openjdk-17-jdk 17.0.18+8-1~22.04.1 17.0.20+8-1~22.04
+openjdk-17-jre 17.0.18+8-1~22.04.1 17.0.20+8-1~22.04
+openjdk-17-jre-headless 17.0.18+8-1~22.04.1 17.0.20+8-1~22.04
+openjdk-17-jdk-headless 17.0.18+8-1~22.04.1 17.0.20+8-1~22.04",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),24,EDR,2027-08-28 00:00:00,6055218,,,,pzscalerzx06,10.105.17.55,,Red Hat Update for pam (RHSA-2026:60224),,RHEL 9.6,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,1187420867_6055218,1,"Package Installed Version Required Version
+pam 0:1.5.1-26.el9_6.x86_64 0:1.5.1-27.el9_8.1",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873110,,,,IBldAgntZX37,10.105.17.68,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 17 Vulnerabilities (USN-8676-1),blogs,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,9,0,0,0,2027-08-01 00:00:00,,,,9,0,0,0,762403096_6873110,9,"Package Installed Version Required Version
+openjdk-17-jdk 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04
+openjdk-17-jre 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04
+openjdk-17-jre-headless 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04
+openjdk-17-jdk-headless 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873108,,,,IBldAgntZX37,10.105.17.68,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 11 Vulnerabilities (USN-8674-1),blogs,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,11,0,0,0,2027-08-01 00:00:00,,,,11,0,0,0,762403096_6873108,11,"Package Installed Version Required Version
+openjdk-11-jdk 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jdk-headless 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jre-headless 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jre 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6055217,,,,pzpubappzx01,10.105.17.112,,Red Hat Update for attr (RHSA-2026:60226),,RHEL 9.5,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,754300511_6055217,1,"Package Installed Version Required Version
+attr 0:2.5.1-3.el9.x86_64 0:2.6.0-1.el9_8
+libattr 0:2.5.1-3.el9.x86_64 0:2.6.0-1.el9_8",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38685,,,,10.122.107.48,10.122.107.48,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985148340_38685_443,1,"Certificate #0 OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN,CN=10.122.107.48 ISSUER:_CN=Honeywell_GPC_Video,OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.192.41,10.123.192.41,22,SHA1 deprecated setting for SSH,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984278131_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.122.16.41,10.122.16.41,22,SHA1 deprecated setting for SSH,,,OTHER,,Qualys_CSAM,HCD,2025-10-17 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984491457_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6055158,,,,ttechopszx02,10.105.49.17,,Red Hat Update for python-pyasn1 (RHSA-2026:59241),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,791484759_6055158,1,"Package Installed Version Required Version
+python3-pyasn1 0:0.3.7-6.el8_10.1.noarch 0:0.3.7-6.el8_10.2",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6055191,,,,ttechopszx02,10.105.49.17,,Red Hat Update for sqlite (RHSA-2026:58938),,RHEL 8.10,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,2,0,0,0,2027-08-01 00:00:00,,,,2,0,0,0,791484759_6055191,2,"Package Installed Version Required Version
+sqlite-libs 0:3.26.0-20.el8_10.x86_64 0:3.26.0-21.el8_10
+sqlite 0:3.26.0-20.el8_10.x86_64 0:3.26.0-21.el8_10",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6055217,,,,pzscalerzx08,10.105.17.66,,Red Hat Update for attr (RHSA-2026:60226),,RHEL 9.7,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,1014325841_6055217,1,"Package Installed Version Required Version
+attr 0:2.5.1-3.el9.x86_64 0:2.6.0-1.el9_8
+libattr 0:2.5.1-3.el9.x86_64 0:2.6.0-1.el9_8",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38169,,,,10.123.160.40,10.123.160.40,443,SSL Certificate - Self-Signed Certificate,,,OTHER,,Qualys_CSAM,HCD,2025-10-17 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984582060_38169_443,1,"Certificate #0 CN=.,C=US  is a self signed certificate.",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38685,,,,10.123.160.40,10.123.160.40,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984582060_38685_443,1,"Certificate #0 CN=.,C=US ISSUER:_CN=.,C=US  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6055217,,,,pzscalerzx06,10.105.17.55,,Red Hat Update for attr (RHSA-2026:60226),,RHEL 9.6,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,1187420867_6055217,1,"Package Installed Version Required Version
+attr 0:2.5.1-3.el9.x86_64 0:2.6.0-1.el9_8
+libattr 0:2.5.1-3.el9.x86_64 0:2.6.0-1.el9_8",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.96.41,10.123.96.41,22,SHA1 deprecated setting for SSH,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984454847_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38685,,,,10.122.19.10,10.122.19.10,443,SSL Certificate - Invalid Maximum Validity Date Detected,,"Xerox VersaLink C625 Color; SS 122.024.035.21000, NC 122.024.21000, UI 122.024.21000, ME 230.350, CC 122.024.21000, DF 230.350, FI 000.000.000, FA 003.021.024, OS 230.350, SC 230.350, SU 005.016",OTHER,,Qualys_CSAM,HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985055771_38685_443,1,"Certificate #0 emailAddress=user@xerox.com,CN=Speedway-Outreach,OU=Xerox_Corporation,O=Xerox_Corporation,L=Norwalk,ST=Connecticut,C=US ISSUER:_CN=Xerox_Generic_Root_Certificate_Authority,OU=Generic_Root_Certificate_Authority,O=Xerox_Corporation,L=Rochester,ST=New_York,C=US  is valid for more than 200 days",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,mieasmxl9514bg0.oakstreet.local,10.123.237.25,3389,SSL Certificate - Signature Verification Failed Vulnerability,,Windows 2016/2019/10,Windows,,Qualys_CSAM,HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985259118_38173_3389,1,Certificate #0 CN=MIEASMXL9514BG0.oakstreet.local ISSUER:_CN=MIEASMXL9514BG0.oakstreet.local self signed certificate,,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,oshcmxl0521ykc.oakstreet.local,10.123.144.87,3389,SSL Certificate - Signature Verification Failed Vulnerability,,Windows 2016/2019/10,Windows,,"Qualys_CSAM, SNOW",HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985184695_38173_3389,1,Certificate #0 CN=OSHCMXL0521YKC.oakstreet.local ISSUER:_CN=OSHCMXL0521YKC.oakstreet.local self signed certificate,,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873108,,,,IBldAgntZX40,10.105.39.12,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 11 Vulnerabilities (USN-8674-1),blogs,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,11,0,0,0,2027-08-01 00:00:00,,,,11,0,0,0,750043111_6873108,11,"Package Installed Version Required Version
+openjdk-11-jdk 11.0.30+7-1ubuntu1~22.04 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jdk-headless 11.0.30+7-1ubuntu1~22.04 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jre-headless 11.0.30+7-1ubuntu1~22.04 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jre 11.0.30+7-1ubuntu1~22.04 11.0.32+9-1ubuntu1~22.04",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,388518,,,,iveeam00lw01.oakstreet.local,10.5.2.103,,PostgreSQL Buffer Overflow Executes Arbitrary Code Vulnerability,"blogs, github-exploits",Windows Server 2022 Standard,Windows,,"CrowdStrike, Qualys_CSAM, SNOW",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,811092608_388518,1,C:\Program Files\PostgreSQL\15\bin\psql.exe  Version is  15.0.13.25126,,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),24,EDR,2027-08-28 00:00:00,6055218,,,,pzpubappzx02,10.105.17.113,,Red Hat Update for pam (RHSA-2026:60224),,RHEL 9.5,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,754308242_6055218,1,"Package Installed Version Required Version
+pam 0:1.5.1-26.el9_6.x86_64 0:1.5.1-27.el9_8.1",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38685,,,,10.123.251.48,10.123.251.48,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984663822_38685_443,1,"Certificate #0 OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN,CN=10.123.251.48 ISSUER:_CN=Honeywell_GPC_Video,OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,10.123.251.48,10.123.251.48,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984663822_38173_443,1,"Certificate #0 OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN,CN=10.123.251.48 ISSUER:_CN=Honeywell_GPC_Video,OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN unable to get local issuer certificate",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,10.122.208.40,10.122.208.40,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985076371_38173_443,1,"Certificate #0 CN=5A2149T48957,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US ISSUER:_CN=5A2149T48957,OU=Internally_Generated_Certificate,O=American_Power_Conversion_Corp,L=Default_Locality,ST=Default_State,C=US self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38169,,,,10.122.40.42,10.122.40.42,443,SSL Certificate - Self-Signed Certificate,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985140368_38169_443,1,"Certificate #0 CN=.,C=US  is a self signed certificate.",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38685,,,,10.122.40.42,10.122.40.42,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985140368_38685_443,1,"Certificate #0 CN=.,C=US ISSUER:_CN=.,C=US  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,82005,,,,10.123.232.40,10.123.232.40,,Predictable TCP Initial Sequence Numbers Vulnerability,"The Exploit-DB, exploitdb, seebug",,OTHER,,Qualys_CSAM,HCD,2026-04-17 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,4,0,0,0,2027-08-01 00:00:00,,,,4,0,0,0,985057975_82005,4,"Constant changes in initial sequence numbers observed in 6 out of 23 events.
+
+[ Sent Packets Results ]
+
+Packet  1 : TIME[1787890234.544742]  SEQ[1861303254]  CHANGE[N/A]  VARIATION[N/A]
+Packet  2 : TIME[1787890234.549837]  SEQ[4083243844]  CHANGE[2073026706]  VARIATION[N/A]
+Packet  3 : TIME[1787890234.554918]  SEQ[1996275286]  CHANGE[2086968558]  VARIATION[13941852]
+Packet  4 : TIME[1787890234.560002]  SEQ[4041375638]  CHANGE[2045100352]  VARIATION[41868206]
+Packet  5 : TIME[1787890234.565074]  SEQ[2095595734]  CHANGE[1945779904]  VARIATION[99320448]
+Packet  6 : TIME[1787890234.570148]  SEQ[4176347670]  CHANGE[2080751936]  VARIATION[134972032]
+Packet  7 : TIME[1787890234.575229]  SEQ[2230567766]  CHANGE[1945779904]  VARIATION[134972032]
+Packet  8 : TIME[1787890234.580307]  SEQ[16352406]  CHANGE[2080751936]  VARIATION[134972032]
+Packet  9 : TIME[1787890234.585390]  SEQ[2365539798]  CHANGE[1945779904]  VARIATION[134972032]
+Packet 10 : TIME[1787890234.590471]  SEQ[3007760047]  CHANGE[642220249]  VARIATION[1303559655]
+Packet 11 : TIME[1787890234.595551]  SEQ[2498414678]  CHANGE[509345369]  VARIATION[132874880]
+Packet 12 : TIME[1787890234.605710]  SEQ[2599832278]  CHANGE[101417600]  VARIATION[407927769]
+Packet 13 : TIME[1787890234.600638]  SEQ[519080342]  CHANGE[2080751936]  VARIATION[1979334336]
+Packet 14 : TIME[1787890234.610788]  SEQ[654052374]  CHANGE[134972032]  VARIATION[1945779904]
+Packet 15 : TIME[1787890234.626034]  SEQ[2867679190]  CHANGE[2081340480]  VARIATION[1946368448]
+Packet 16 : TIME[1787890234.620960]  SEQ[3555103501]  CHANGE[687424311]  VARIATION[1393916169]
+Packet 17 : TIME[1787890234.615870]  SEQ[2732707158]  CHANGE[822396343]  VARIATION[134972032]
+Packet 18 : TIME[1787890234.631127]  SEQ[921899286]  CHANGE[1810807872]  VARIATION[988411529]
+Packet 19 : TIME[1787890234.636203]  SEQ[2969096790]  CHANGE[2047197504]  VARIATION[236389632]
+Packet 20 : TIME[1787890234.641235]  SEQ[1023316886]  CHANGE[1945779904]  VARIATION[101417600]
+Packet 21 : TIME[1787890234.646313]  SEQ[3101971670]  CHANGE[2078654784]  VARIATION[132874880]
+Packet 22 : TIME[1787890234.651389]  SEQ[1156191766]  CHANGE[1945779904]  VARIATION[132874880]
+Packet 23 : TIME[1787890234.656482]  SEQ[278941722]  CHANGE[877250044]  VARIATION[1068529860]
+Packet 24 : TIME[1787890234.661569]  SEQ[1291163798]  CHANGE[1012222076]  VARIATION[134972032]",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,10.123.160.40,10.123.160.40,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984582060_38173_443,1,"Certificate #0 CN=.,C=US ISSUER:_CN=.,C=US self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6055217,,,,pzpubappzx02,10.105.17.113,,Red Hat Update for attr (RHSA-2026:60226),,RHEL 9.5,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,754308242_6055217,1,"Package Installed Version Required Version
+attr 0:2.5.1-3.el9.x86_64 0:2.6.0-1.el9_8
+libattr 0:2.5.1-3.el9.x86_64 0:2.6.0-1.el9_8",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.120.42,10.123.120.42,22,SHA1 deprecated setting for SSH,,,OTHER,,Qualys_CSAM,HCD,2025-10-17 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985202129_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873108,,,,IBldAgntZX47,10.105.39.14,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 11 Vulnerabilities (USN-8674-1),blogs,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,11,0,0,0,2027-08-01 00:00:00,,,,11,0,0,0,750028375_6873108,11,"Package Installed Version Required Version
+openjdk-11-jdk 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jdk-headless 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jre-headless 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04
+openjdk-11-jre 11.0.31+11-1ubuntu1~22.04.2 11.0.32+9-1ubuntu1~22.04",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873110,,,,IBldAgntZX47,10.105.39.14,,Ubuntu Security Notification for Open Java Development Toolkit (OpenJDK) 17 Vulnerabilities (USN-8676-1),blogs,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,9,0,0,0,2027-08-01 00:00:00,,,,9,0,0,0,750028375_6873110,9,"Package Installed Version Required Version
+openjdk-17-jdk 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04
+openjdk-17-jre 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04
+openjdk-17-jre-headless 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04
+openjdk-17-jdk-headless 17.0.19+10-1~22.04.2 17.0.20+8-1~22.04",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.224.41,10.123.224.41,22,SHA1 deprecated setting for SSH,,,OTHER,,Qualys_CSAM,HCD,2025-12-12 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985059469_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,oshc433ncw3.oakstreet.local,10.123.213.170,3389,SSL Certificate - Signature Verification Failed Vulnerability,,Windows 2016/2019/10,Windows,,Qualys_CSAM,HCD,2025-10-17 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,990567653_38173_3389,1,Certificate #0 CN=OSHC433NCW3.oakstreet.local ISSUER:_CN=OSHC433NCW3.oakstreet.local self signed certificate,,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,6873083,,,,prhpsdyzx02,10.105.17.159,,Ubuntu Security Notification for curl Vulnerability (USN-8670-2),nist-nvd2,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,754327572_6873083,1,"Package Installed Version Required Version
+libcurl4 7.81.0-1ubuntu1.26 7.81.0-1ubuntu1.27
+curl 7.81.0-1ubuntu1.26 7.81.0-1ubuntu1.27
+libcurl3-gnutls 7.81.0-1ubuntu1.26 7.81.0-1ubuntu1.27",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.184.42,10.123.184.42,22,SHA1 deprecated setting for SSH,,,OTHER,,Qualys_CSAM,HCD,2025-11-21 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985244069_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,82005,,,,10.125.232.40,10.125.232.40,,Predictable TCP Initial Sequence Numbers Vulnerability,"The Exploit-DB, exploitdb, seebug",,OTHER,,Qualys_CSAM,HCD,2026-04-16 00:00:00,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-27 00:00:00,4,0,0,0,2027-08-01 00:00:00,,,,4,0,0,0,989609450_82005,4,"Constant changes in initial sequence numbers observed in 10 out of 23 events.
+
+[ Sent Packets Results ]
+
+Packet  1 : TIME[1787804762.316129]  SEQ[2600871342]  CHANGE[N/A]  VARIATION[N/A]
+Packet  2 : TIME[1787804762.321234]  SEQ[1488378501]  CHANGE[1112492841]  VARIATION[N/A]
+Packet  3 : TIME[1787804762.326314]  SEQ[3804011461]  CHANGE[1979334336]  VARIATION[866841495]
+Packet  4 : TIME[1787804762.331394]  SEQ[1856134405]  CHANGE[1947877056]  VARIATION[31457280]
+Packet  5 : TIME[1787804762.336478]  SEQ[3936886341]  CHANGE[2080751936]  VARIATION[132874880]
+Packet  6 : TIME[1787804762.341560]  SEQ[1991106437]  CHANGE[1945779904]  VARIATION[134972032]
+Packet  7 : TIME[1787804762.346649]  SEQ[4071858373]  CHANGE[2080751936]  VARIATION[134972032]
+Packet  8 : TIME[1787804762.351732]  SEQ[2126078469]  CHANGE[1945779904]  VARIATION[134972032]
+Packet  9 : TIME[1787804762.361967]  SEQ[2225398917]  CHANGE[99320448]  VARIATION[1846459456]
+Packet 10 : TIME[1787804762.367051]  SEQ[3745470249]  CHANGE[1520071332]  VARIATION[1420750884]
+Packet 11 : TIME[1787804762.356832]  SEQ[4206830405]  CHANGE[461360156]  VARIATION[1058711176]
+Packet 12 : TIME[1787804762.377223]  SEQ[146155589]  CHANGE[234292480]  VARIATION[227067676]
+Packet 13 : TIME[1787804762.372144]  SEQ[2360370949]  CHANGE[2080751936]  VARIATION[1846459456]
+Packet 14 : TIME[1787804762.382314]  SEQ[2495342981]  CHANGE[134972032]  VARIATION[1945779904]
+Packet 15 : TIME[1787804762.392505]  SEQ[2628217861]  CHANGE[132874880]  VARIATION[2097152]
+Packet 16 : TIME[1787804762.387394]  SEQ[279030469]  CHANGE[1945779904]  VARIATION[1812905024]
+Packet 17 : TIME[1787804762.397594]  SEQ[414002501]  CHANGE[134972032]  VARIATION[1810807872]
+Packet 18 : TIME[1787804762.402676]  SEQ[2729635461]  CHANGE[1979334336]  VARIATION[1844362304]
+Packet 19 : TIME[1787804762.409080]  SEQ[783855557]  CHANGE[1945779904]  VARIATION[33554432]
+Packet 20 : TIME[1787804762.415166]  SEQ[2864607493]  CHANGE[2080751936]  VARIATION[134972032]
+Packet 21 : TIME[1787804762.431287]  SEQ[1051702469]  CHANGE[1812905024]  VARIATION[267846912]
+Packet 22 : TIME[1787804762.426115]  SEQ[2997482373]  CHANGE[1945779904]  VARIATION[132874880]
+Packet 23 : TIME[1787804762.421031]  SEQ[916730437]  CHANGE[2080751936]  VARIATION[134972032]
+Packet 24 : TIME[1787804762.436388]  SEQ[281082748]  CHANGE[635647689]  VARIATION[1445104247]",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,388518,,,,jitdb01.oakstreet.local,10.1.3.30,,PostgreSQL Buffer Overflow Executes Arbitrary Code Vulnerability,"blogs, github-exploits",Windows Server 2016 Datacenter,Windows,,"CrowdStrike, Qualys_CSAM, SNOW",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,746001265_388518,1,C:\Program Files\PostgreSQL\14\bin\psql.exe  Version is  14.0.17.25106,,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,oshchcsxrw3.oakstreet.local,10.122.13.163,3389,SSL Certificate - Signature Verification Failed Vulnerability,,Windows 2016/2019/10,Windows,,"Qualys_CSAM, SNOW",HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984645584_38173_3389,1,Certificate #0 CN=OSHCHCSXRW3.oakstreet.local ISSUER:_CN=OSHCHCSXRW3.oakstreet.local self signed certificate,,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.216.42,10.123.216.42,22,SHA1 deprecated setting for SSH,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984604008_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.240.42,10.123.240.42,22,SHA1 deprecated setting for SSH,,,OTHER,,Qualys_CSAM,HCD,2026-01-09 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985176955_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.122.176.42,10.122.176.42,22,SHA1 deprecated setting for SSH,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984895470_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873087,,,,prhpsdyzx02,10.105.17.159,,Ubuntu Security Notification for Open Secure Sockets Layer (OpenSSL) Vulnerabilities (USN-8678-1),,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,10,0,0,0,2027-08-01 00:00:00,,,,10,0,0,0,754327572_6873087,10,"Package Installed Version Required Version
+libssl3 3.0.2-0ubuntu1.26 3.0.2-0ubuntu1.29
+openssl 3.0.2-0ubuntu1.26 3.0.2-0ubuntu1.29",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),28,EDR,2027-08-28 00:00:00,6873090,,,,prhpsdyzx02,10.105.17.159,,Ubuntu Security Notification for Vim Vulnerability (USN-8679-1),,Ubuntu 22.04,Ubuntu,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-27 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,754327572_6873090,1,"Package Installed Version Required Version
+vim-common 2:8.2.3995-1ubuntu2.35 2:8.2.3995-1ubuntu2.36
+xxd 2:8.2.3995-1ubuntu2.35 2:8.2.3995-1ubuntu2.36
+vim-runtime 2:8.2.3995-1ubuntu2.35 2:8.2.3995-1ubuntu2.36
+vim 2:8.2.3995-1ubuntu2.35 2:8.2.3995-1ubuntu2.36
+vim-tiny 2:8.2.3995-1ubuntu2.35 2:8.2.3995-1ubuntu2.36",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,388518,,,,oshapppsl114.oakstreet.local,10.5.2.131,,PostgreSQL Buffer Overflow Executes Arbitrary Code Vulnerability,"blogs, github-exploits",Windows Server 2019 Datacenter,Windows,,"CrowdStrike, Qualys_CSAM, SNOW",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,750170648_388518,1,C:\Program Files\PostgreSQL\17\bin\psql.exe  Version is  17.0.7.0,,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38685,,,,10.123.184.40,10.123.184.40,443,SSL Certificate - Invalid Maximum Validity Date Detected,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985104156_38685_443,1,"Certificate #0 CN=.,C=US ISSUER:_CN=.,C=US  is valid for more than 398 days",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),24,EDR,2027-08-28 00:00:00,6055218,,,,pzpubappzx01,10.105.17.112,,Red Hat Update for pam (RHSA-2026:60224),,RHEL 9.5,Linux,,"CrowdStrike, Qualys_CSAM, SNOW, WIZ_Cloud",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,754300511_6055218,1,"Package Installed Version Required Version
+pam 0:1.5.1-26.el9_6.x86_64 0:1.5.1-27.el9_8.1",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38172,,,,10.123.160.40,10.123.160.40,443,SSL Certificate - Improper Usage Vulnerability,,,OTHER,,Qualys_CSAM,HCD,2025-10-17 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984582060_38172_443,1,"Certificate #0 CN=.,C=US is not suitable for CRL signing.",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,11827,,,,miwoomxl9514jjz.oakstreet.local,10.123.216.73,80,HTTP Security Header Not Detected,,Windows 2016/2019/10,Windows,,"Qualys_CSAM, SNOW",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984582030_11827_80,1,"X-Content-Type-Options HTTP Header missing on port 80.
+
+GET / HTTP/1.1
+Host: miwoomxl9514jjz.oakstreet.local
+Connection: Keep-Alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+
+
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Mon, 16 Mar 2026 06:59:32 GMT
+Accept-Ranges: bytes
+ETag: 48b1c77012b5dc1:0
+Server: Microsoft-IIS/10.0
+Date: Fri, 28 Aug 2026 04:11:24 GMT
+Content-Length: 696
+
+!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd
+html xmlns=http://www.w3.org/1999/xhtml
+head
+meta http-equiv=Content-Type content=text/html; charset=iso-8859-1 /
+titleIIS Windows/title
+style type=text/css
+!--
+body {
+color:#000000;
+background-color:#0072C6;
+margin:0;
+}
+
+#container {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+a img {
+border:none;
+}
+
+--
+/style
+/head
+body
+div id=container
+a href=http://go.microsoft.com/fwlink/?linkid=66138&amp;amp;clcid=0x409img src=iisstart.png alt=IIS width=960 height=600 //a
+/div
+/body
+/html",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,10.123.184.40,10.123.184.40,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985104156_38173_443,1,"Certificate #0 CN=.,C=US ISSUER:_CN=.,C=US self signed certificate",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38909,,,,10.123.56.42,10.123.56.42,22,SHA1 deprecated setting for SSH,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,984780971_38909_22,1,"Type Name
+host key algorithm ssh-rsa",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,11827,,,,ilelgmxl90342h9.oakstreet.local,10.122.200.54,80,HTTP Security Header Not Detected,,Windows 2016/2019/10,Windows,,"Qualys_CSAM, SNOW",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985060763_11827_80,1,"X-Content-Type-Options HTTP Header missing on port 80.
+
+GET / HTTP/1.1
+Host: ilelgmxl90342h9.oakstreet.local
+Connection: Keep-Alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+
+
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Thu, 18 Jun 2026 11:39:28 GMT
+Accept-Ranges: bytes
+ETag: b744c91e17ffdc1:0
+Server: Microsoft-IIS/10.0
+Date: Fri, 28 Aug 2026 04:26:20 GMT
+Content-Length: 696
+
+!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd
+html xmlns=http://www.w3.org/1999/xhtml
+head
+meta http-equiv=Content-Type content=text/html; charset=iso-8859-1 /
+titleIIS Windows/title
+style type=text/css
+!--
+body {
+color:#000000;
+background-color:#0072C6;
+margin:0;
+}
+
+#container {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+a img {
+border:none;
+}
+
+--
+/style
+/head
+body
+div id=container
+a href=http://go.microsoft.com/fwlink/?linkid=66138&amp;amp;clcid=0x409img src=iisstart.png alt=IIS width=960 height=600 //a
+/div
+/body
+/html",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,10.122.107.48,10.122.107.48,443,SSL Certificate - Signature Verification Failed Vulnerability,,,OTHER,,Qualys_CSAM,HCD,2025-10-10 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985148340_38173_443,1,"Certificate #0 OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN,CN=10.122.107.48 ISSUER:_CN=Honeywell_GPC_Video,OU=GPC,O=Honeywell,L=Shanghai,ST=Shanghai,C=CN unable to get local issuer certificate",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,11827,,,,ribramxl9455ctm.oakstreet.local,10.123.80.72,80,HTTP Security Header Not Detected,,Windows 2016/2019/10,Windows,,"Qualys_CSAM, SNOW",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,985219193_11827_80,1,"X-Content-Type-Options HTTP Header missing on port 80.
+
+GET / HTTP/1.1
+Host: ribramxl9455ctm.oakstreet.local
+Connection: Keep-Alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+
+
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Thu, 26 Mar 2026 00:18:51 GMT
+Accept-Ranges: bytes
+ETag: 5f12631fb6bcdc1:0
+Server: Microsoft-IIS/10.0
+Date: Fri, 28 Aug 2026 04:14:09 GMT
+Content-Length: 696
+
+!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd
+html xmlns=http://www.w3.org/1999/xhtml
+head
+meta http-equiv=Content-Type content=text/html; charset=iso-8859-1 /
+titleIIS Windows/title
+style type=text/css
+!--
+body {
+color:#000000;
+background-color:#0072C6;
+margin:0;
+}
+
+#container {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+a img {
+border:none;
+}
+
+--
+/style
+/head
+body
+div id=container
+a href=http://go.microsoft.com/fwlink/?linkid=66138&amp;amp;clcid=0x409img src=iisstart.png alt=IIS width=960 height=600 //a
+/div
+/body
+/html",,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),32,EDR,2027-08-28 00:00:00,38173,,,,oshcf3gncw3.oakstreet.local,10.122.104.197,3389,SSL Certificate - Signature Verification Failed Vulnerability,,Windows 2016/2019/10,Windows,,Qualys_CSAM,HCD,2026-06-26 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,1181757312_38173_3389,1,Certificate #0 CN=OSHC76PKP54.oakstreet.local ISSUER:_CN=OSHC76PKP54.oakstreet.local self signed certificate,,0
+Due > 30 Days,HCD_Health Care Delivery_OSH,"4_Title Search:% ApplicationMatch:_Rule:3794278_2026-08-28
+Unknown",2026-08-28 00:00:00,OakStreet Health (OSH),"Gassmann, Joseph",,,,,Low Risk (1-39),33,EDR,2027-08-28 00:00:00,388518,,,,EPICMIRTH.oakstreet.local,10.5.2.95,,PostgreSQL Buffer Overflow Executes Arbitrary Code Vulnerability,"blogs, github-exploits",Windows Server 2022 Datacenter,Windows,,"CrowdStrike, Qualys_CSAM",HCD,2026-08-28 00:00:00,2026-08-28 00:00:00,2026-08-28 00:00:00,,1,0,0,0,2027-08-01 00:00:00,,,,1,0,0,0,939365011_388518,1,C:\Program Files\PostgreSQL\17\bin\psql.exe  Version is  17.0.5.0,,0
